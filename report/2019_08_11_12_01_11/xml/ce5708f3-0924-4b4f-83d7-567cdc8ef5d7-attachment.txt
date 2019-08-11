@@ -1,0 +1,3 @@
+[32mINFO    [0m logs:base_page.py:138 PageElement页面link text:设置对象已访问
+[32mINFO    [0m logs:base_page.py:138 PageElement页面css selector:.setpref对象已访问
+[32mINFO    [0m logs:base_page.py:138 PageElement页面css selector:.prefpanelgo对象已访问

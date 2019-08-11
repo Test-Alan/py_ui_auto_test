@@ -1,0 +1,11 @@
+2019-08-11 12:35:59,783 base_page.py[line:66] INFO FindElement页面id:kw对象已访问
+2019-08-11 12:35:59,915 base_page.py[line:66] INFO FindElement页面id:su对象已访问
+2019-08-11 12:36:02,156 base_page.py[line:66] INFO FindElement页面id:kw对象已访问
+2019-08-11 12:36:02,268 base_page.py[line:66] INFO FindElement页面id:su对象已访问
+2019-08-11 12:36:04,504 base_page.py[line:66] INFO FindElement页面id:kw对象已访问
+2019-08-11 12:36:04,617 base_page.py[line:66] INFO FindElement页面id:su对象已访问
+2019-08-11 12:36:06,859 base_page.py[line:66] INFO FindElement页面id:kw对象已访问
+2019-08-11 12:36:06,985 base_page.py[line:66] INFO FindElement页面id:su对象已访问
+2019-08-11 12:36:09,232 base_page.py[line:66] INFO FindElement页面link text:设置对象已访问
+2019-08-11 12:36:09,311 base_page.py[line:66] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 12:36:11,407 base_page.py[line:66] INFO FindElement页面css selector:.prefpanelgo对象已访问

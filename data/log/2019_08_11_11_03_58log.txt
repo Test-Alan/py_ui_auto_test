@@ -1,0 +1,66 @@
+2019-08-11 11:04:01,548 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:01,548 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:01,548 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:01,548 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:01,548 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:01,548 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:01,702 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:01,702 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:01,702 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:01,702 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:01,702 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:01,702 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:03,945 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:03,945 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:03,945 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:03,945 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:03,945 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:03,945 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:04,056 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:04,056 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:04,056 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:04,056 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:04,056 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:04,056 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:06,302 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:06,302 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:06,302 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:06,302 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:06,302 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:06,302 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:06,416 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:06,416 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:06,416 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:06,416 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:06,416 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:06,416 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:08,706 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:08,706 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:08,706 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:08,706 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:08,706 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:08,706 base_page.py[line:136] INFO FindElement页面id:kw对象已访问
+2019-08-11 11:04:08,837 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:08,837 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:08,837 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:08,837 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:08,837 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:08,837 base_page.py[line:136] INFO FindElement页面id:su对象已访问
+2019-08-11 11:04:11,084 base_page.py[line:136] INFO FindElement页面link text:设置对象已访问
+2019-08-11 11:04:11,084 base_page.py[line:136] INFO FindElement页面link text:设置对象已访问
+2019-08-11 11:04:11,084 base_page.py[line:136] INFO FindElement页面link text:设置对象已访问
+2019-08-11 11:04:11,084 base_page.py[line:136] INFO FindElement页面link text:设置对象已访问
+2019-08-11 11:04:11,084 base_page.py[line:136] INFO FindElement页面link text:设置对象已访问
+2019-08-11 11:04:11,084 base_page.py[line:136] INFO FindElement页面link text:设置对象已访问
+2019-08-11 11:04:11,155 base_page.py[line:136] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 11:04:11,155 base_page.py[line:136] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 11:04:11,155 base_page.py[line:136] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 11:04:11,155 base_page.py[line:136] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 11:04:11,155 base_page.py[line:136] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 11:04:11,155 base_page.py[line:136] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 11:04:13,250 base_page.py[line:136] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 11:04:13,250 base_page.py[line:136] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 11:04:13,250 base_page.py[line:136] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 11:04:13,250 base_page.py[line:136] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 11:04:13,250 base_page.py[line:136] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 11:04:13,250 base_page.py[line:136] INFO FindElement页面css selector:.prefpanelgo对象已访问

@@ -1,0 +1,66 @@
+2019-08-11 12:01:14,145 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:14,145 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:14,145 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:14,145 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:14,145 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:14,145 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:14,284 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:14,284 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:14,284 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:14,284 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:14,284 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:14,284 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:16,540 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:16,540 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:16,540 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:16,540 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:16,540 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:16,540 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:16,655 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:16,655 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:16,655 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:16,655 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:16,655 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:16,655 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:18,882 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:18,882 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:18,882 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:18,882 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:18,882 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:18,882 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:18,995 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:18,995 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:18,995 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:18,995 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:18,995 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:18,995 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:21,240 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:21,240 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:21,240 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:21,240 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:21,240 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:21,240 base_page.py[line:138] INFO PageElement页面id:kw对象已访问
+2019-08-11 12:01:21,368 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:21,368 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:21,368 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:21,368 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:21,368 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:21,368 base_page.py[line:138] INFO PageElement页面id:su对象已访问
+2019-08-11 12:01:23,613 base_page.py[line:138] INFO PageElement页面link text:设置对象已访问
+2019-08-11 12:01:23,613 base_page.py[line:138] INFO PageElement页面link text:设置对象已访问
+2019-08-11 12:01:23,613 base_page.py[line:138] INFO PageElement页面link text:设置对象已访问
+2019-08-11 12:01:23,613 base_page.py[line:138] INFO PageElement页面link text:设置对象已访问
+2019-08-11 12:01:23,613 base_page.py[line:138] INFO PageElement页面link text:设置对象已访问
+2019-08-11 12:01:23,613 base_page.py[line:138] INFO PageElement页面link text:设置对象已访问
+2019-08-11 12:01:23,689 base_page.py[line:138] INFO PageElement页面css selector:.setpref对象已访问
+2019-08-11 12:01:23,689 base_page.py[line:138] INFO PageElement页面css selector:.setpref对象已访问
+2019-08-11 12:01:23,689 base_page.py[line:138] INFO PageElement页面css selector:.setpref对象已访问
+2019-08-11 12:01:23,689 base_page.py[line:138] INFO PageElement页面css selector:.setpref对象已访问
+2019-08-11 12:01:23,689 base_page.py[line:138] INFO PageElement页面css selector:.setpref对象已访问
+2019-08-11 12:01:23,689 base_page.py[line:138] INFO PageElement页面css selector:.setpref对象已访问
+2019-08-11 12:01:25,781 base_page.py[line:138] INFO PageElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 12:01:25,781 base_page.py[line:138] INFO PageElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 12:01:25,781 base_page.py[line:138] INFO PageElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 12:01:25,781 base_page.py[line:138] INFO PageElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 12:01:25,781 base_page.py[line:138] INFO PageElement页面css selector:.prefpanelgo对象已访问
+2019-08-11 12:01:25,781 base_page.py[line:138] INFO PageElement页面css selector:.prefpanelgo对象已访问

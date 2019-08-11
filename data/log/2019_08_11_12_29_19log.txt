@@ -1,0 +1,3 @@
+2019-08-11 12:29:22,094 base_page.py[line:93] INFO FindElement页面link text:设置对象已访问
+2019-08-11 12:29:22,194 base_page.py[line:93] INFO FindElement页面css selector:.setpref对象已访问
+2019-08-11 12:29:24,263 base_page.py[line:93] INFO FindElement页面css selector:.prefpanelgo对象已访问

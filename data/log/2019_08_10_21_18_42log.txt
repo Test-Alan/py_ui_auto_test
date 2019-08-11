@@ -1,0 +1,6 @@
+2019-08-10 21:18:45,620 base_page.py[line:137] INFO FindElement页面id:kw对象已访问
+2019-08-10 21:18:45,620 base_page.py[line:137] INFO FindElement页面id:kw对象已访问
+2019-08-10 21:18:45,620 base_page.py[line:137] INFO FindElement页面id:kw对象已访问
+2019-08-10 21:18:45,620 base_page.py[line:137] INFO FindElement页面id:kw对象已访问
+2019-08-10 21:18:45,620 base_page.py[line:137] INFO FindElement页面id:kw对象已访问
+2019-08-10 21:18:45,620 base_page.py[line:137] INFO FindElement页面id:kw对象已访问

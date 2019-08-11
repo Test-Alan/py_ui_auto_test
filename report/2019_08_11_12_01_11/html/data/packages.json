@@ -1,0 +1,74 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "tests.test_baidu",
+    "children" : [ {
+      "name" : "test_baidu_search_case",
+      "uid" : "ca9caf5c1ea1f1bb",
+      "parentUid" : "ff3ddb36c5c268f7c1e1d0a3e1d8f69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565496073603,
+        "stop" : 1565496076364,
+        "duration" : 2761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_baidu_search[case1]",
+      "uid" : "9b08f3eaece6149f",
+      "parentUid" : "ff3ddb36c5c268f7c1e1d0a3e1d8f69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565496076370,
+        "stop" : 1565496078725,
+        "duration" : 2355
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'1'", "'Selenium'" ]
+    }, {
+      "name" : "test_baidu_search[case2]",
+      "uid" : "8fe9a550c00eed91",
+      "parentUid" : "ff3ddb36c5c268f7c1e1d0a3e1d8f69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565496078731,
+        "stop" : 1565496081069,
+        "duration" : 2338
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'2'", "'pytest文档'" ]
+    }, {
+      "name" : "test_baidu_search[case3]",
+      "uid" : "771cc554f491630d",
+      "parentUid" : "ff3ddb36c5c268f7c1e1d0a3e1d8f69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565496081075,
+        "stop" : 1565496083445,
+        "duration" : 2370
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "'3'", "'pytest-html'" ]
+    }, {
+      "name" : "test_baidu_search_setting",
+      "uid" : "8b34d6d7d5f61976",
+      "parentUid" : "ff3ddb36c5c268f7c1e1d0a3e1d8f69b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1565496083450,
+        "stop" : 1565496085902,
+        "duration" : 2452
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "tests.test_baidu"
+  } ]
+}
