@@ -1,8 +1,0 @@
-2019-08-11 12:27:31,452 base_page.py[line:94] INFO FindElement页面id:kw对象已访问
-2019-08-11 12:27:31,591 base_page.py[line:94] INFO FindElement页面id:su对象已访问
-2019-08-11 12:27:33,840 base_page.py[line:94] INFO FindElement页面id:kw对象已访问
-2019-08-11 12:27:33,944 base_page.py[line:94] INFO FindElement页面id:su对象已访问
-2019-08-11 12:27:36,185 base_page.py[line:94] INFO FindElement页面id:kw对象已访问
-2019-08-11 12:27:36,294 base_page.py[line:94] INFO FindElement页面id:su对象已访问
-2019-08-11 12:27:38,538 base_page.py[line:94] INFO FindElement页面id:kw对象已访问
-2019-08-11 12:27:38,663 base_page.py[line:94] INFO FindElement页面id:su对象已访问
