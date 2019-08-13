@@ -3,7 +3,7 @@ import logging.handlers
 import time
 import os
 import allure
-from poium import poium, PageElement, PageElements
+from poium import PageElement, PageElements
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC

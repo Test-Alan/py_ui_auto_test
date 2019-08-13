@@ -25,9 +25,9 @@ class TestSearch:
         page = BaiduPage(browser)
         page.get(base_url)
         page.search_input = "pytest"
-        page.search_button.click()
-        sleep(2)
-        assert browser.title == "pytest_百度搜索"
+        # page.search_button.click()
+        # sleep(2)
+        # assert browser.title == "pytest_百度搜索"
 
     @pytest.mark.parametrize(
         "name, search_key",
