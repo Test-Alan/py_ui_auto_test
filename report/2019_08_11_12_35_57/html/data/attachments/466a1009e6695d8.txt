@@ -1,2 +1,0 @@
-[32mINFO    [0m logs:base_page.py:66 FindElement页面id:kw对象已访问
-[32mINFO    [0m logs:base_page.py:66 FindElement页面id:su对象已访问

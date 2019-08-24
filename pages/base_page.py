@@ -7,32 +7,9 @@ from poium import PageElement, PageElements
 from allure_commons.types import AttachmentType
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
+from utils.log_conf import init_logger
 
-BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-data_dir = BASE_DIR + '/data/'
-
-# 日志管理
-def init_logger(file_name):
-    now_time = time.strftime("%Y_%m_%d_%H_%M_%S")   # 当前时间
-    log_file_name = now_time + file_name            # 使用当前时间当做log日志的文件名
-    log_file = os.path.join(data_dir, "log/", log_file_name)
-    dir_path = os.path.dirname(log_file)
-    try:
-        if not os.path.exists(dir_path):
-            os.makedirs(dir_path)
-    except Exception:
-        pass
-
-    handler = logging.handlers.RotatingFileHandler(log_file, maxBytes=20 * 1024 * 1024, backupCount=10, encoding='utf-8')
-    fmt = '%(asctime)s %(filename)s[line:%(lineno)d] %(levelname)s %(message)s'
-    formatter = logging.Formatter(fmt)
-    handler.setFormatter(formatter)
-    logger_instance = logging.getLogger('logs')
-    logger_instance.addHandler(handler)
-    logger_instance.setLevel(logging.DEBUG)
-    return logger_instance
-
-loggerr = init_logger("log.txt")
+logger = init_logger("log.txt")
 
 # 截图
 # def insert_img(driver, file_name):
@@ -49,7 +26,7 @@ loggerr = init_logger("log.txt")
 class FindElement(PageElement):
     def get_element(self, context):
         try:
-            elem = WebDriverWait(context, self.time_out).until(EC.presence_of_element_located(self.locator))
+            elem = WebDriverWait(context, self.time_out).until(EC.visibility_of_element_located(self.locator))
         except:
             return None
 
@@ -63,7 +40,7 @@ class FindElement(PageElement):
 
     def find(self, context):
         if self.get_element(context) is not None:
-            loggerr.info(format(self.__class__.__name__) + "页面" + "%s对象已访问" % ':'.join(self.locator))
+            logger.info(format(self.__class__.__name__) + "页面" + "%s对象已访问" % ':'.join(self.locator))
             return self.get_element(context)
 
         else:
@@ -71,14 +48,14 @@ class FindElement(PageElement):
             # insert_img(context,  '-'.join(self.locator) + "对象未找到截图.png")
             allure.attach(context.get_screenshot_as_png(), name='-'.join(self.locator) + "对象未找到截图.png", attachment_type=AttachmentType.PNG)
             # 日志
-            loggerr.info(format(self.__class__.__name__) + "页面" + "%s对象未找到" % ':'.join(self.locator))
+            logger.info(format(self.__class__.__name__) + "页面" + "%s对象未找到" % ':'.join(self.locator))
             return self.get_element(context)
 
 
 class FindElements(PageElements):
     def get_element(self, context):
         try:
-            elem = WebDriverWait(context, self.time_out).until(EC.presence_of_all_elements_located(self.locator))
+            elem = WebDriverWait(context, self.time_out).until(EC.visibility_of_all_elements_located(self.locator))
         except:
             return None
 
@@ -92,7 +69,7 @@ class FindElements(PageElements):
 
     def find(self, context):
         if self.get_element(context) is not None:
-            loggerr.info(format(self.__class__.__name__) + "页面" + "%s对象已访问" % ':'.join(self.locator))
+            logger.info(format(self.__class__.__name__) + "页面" + "%s对象已访问" % ':'.join(self.locator))
             return self.get_element(context)
 
         else:
@@ -100,7 +77,7 @@ class FindElements(PageElements):
             # insert_img(context, '-'.join(self.locator) + "对象未找到截图.png")
             allure.attach(context.get_screenshot_as_png(), name='-'.join(self.locator) + "对象未找到截图.png", attachment_type=AttachmentType.PNG)
             # 日志
-            loggerr.info(format(self.__class__.__name__) + "页面" + "%s对象未找到" % ':'.join(self.locator))
+            logger.info(format(self.__class__.__name__) + "页面" + "%s对象未找到" % ':'.join(self.locator))
             return self.get_element(context)
 
 

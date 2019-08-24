@@ -8,7 +8,6 @@ from pages.baidu_page import BaiduPage
 sys.path.insert(0, dirname(dirname(abspath(__file__))))
 
 
-
 class TestSearch:
     """百度搜索"""
 

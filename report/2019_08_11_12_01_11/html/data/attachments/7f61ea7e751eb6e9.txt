@@ -1,2 +1,0 @@
-[32mINFO    [0m logs:base_page.py:138 PageElement页面id:kw对象已访问
-[32mINFO    [0m logs:base_page.py:138 PageElement页面id:su对象已访问

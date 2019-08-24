@@ -1,15 +1,16 @@
 # coding=utf-8
 import os
 import time
-import logging
 import pytest
 import click
 from conftest import REPORT_DIR
 from conftest import cases_path, rerun
 
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-logger = logging.getLogger(__name__)
+# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+# logger = logging.getLogger(__name__)
+from utils.log_conf import init_logger
 
+logger = init_logger("log.txt")
 '''
 说明：
 1、用例创建原则，测试文件名必须以“test”开头，测试函数必须以“test”开头。
@@ -39,8 +40,9 @@ def run(m):
                      "--alluredir="+xml_report,
                      cases_path,
                      "--reruns", rerun])
-        cli = "allure generate " + xml_report + " -o " + html_report
-        os.popen(cli)
+        allure_report = "allure generate {xml} -o {html}".format(xml=xml_report, html=html_report)
+        logger(allure_report)
+        os.popen(allure_report)
         logger.info("运行结束，生成测试报告♥❤！")
     elif m == "debug":
         print("debug模式，开始执行！")
