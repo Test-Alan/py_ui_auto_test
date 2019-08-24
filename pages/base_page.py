@@ -1,7 +1,3 @@
-import logging
-import logging.handlers
-import time
-import os
 import allure
 from poium import PageElement, PageElements
 from allure_commons.types import AttachmentType
