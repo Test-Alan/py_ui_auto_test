@@ -1,0 +1,33 @@
+2019-09-01 20:33:27,305 run_tests.py[line:34] INFO 回归模式，开始执行✈✈！
+2019-09-01 20:33:30,080 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:30,080 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:30,409 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:30,409 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:30,530 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:30,530 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:32,773 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:32,773 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:32,895 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:32,895 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:35,148 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:35,148 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:35,286 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:35,286 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:37,631 page_object.py[line:39] INFO FindElement页面link text:设置对象已访问
+2019-09-01 20:33:37,631 page_object.py[line:39] INFO FindElement页面link text:设置对象已访问
+2019-09-01 20:33:37,702 page_object.py[line:39] INFO FindElement页面css selector:.setpref对象已访问
+2019-09-01 20:33:37,702 page_object.py[line:39] INFO FindElement页面css selector:.setpref对象已访问
+2019-09-01 20:33:39,822 page_object.py[line:39] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-09-01 20:33:39,822 page_object.py[line:39] INFO FindElement页面css selector:.prefpanelgo对象已访问
+2019-09-01 20:33:40,962 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:40,962 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:41,079 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:41,079 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:43,461 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:43,461 page_object.py[line:39] INFO FindElement页面id:kw对象已访问
+2019-09-01 20:33:43,561 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:43,561 page_object.py[line:39] INFO FindElement页面id:su对象已访问
+2019-09-01 20:33:47,753 run_tests.py[line:44] INFO allure generate /Users/lan/PycharmProjects/pyauto_test/report/2019_09_01_20_33_27/xml -o /Users/lan/PycharmProjects/pyauto_test/report/2019_09_01_20_33_27/html
+2019-09-01 20:33:47,753 run_tests.py[line:44] INFO allure generate /Users/lan/PycharmProjects/pyauto_test/report/2019_09_01_20_33_27/xml -o /Users/lan/PycharmProjects/pyauto_test/report/2019_09_01_20_33_27/html
+2019-09-01 20:33:47,756 run_tests.py[line:46] INFO 运行结束，生成测试报告♥❤！
+2019-09-01 20:33:47,756 run_tests.py[line:46] INFO 运行结束，生成测试报告♥❤！
