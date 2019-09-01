@@ -39,6 +39,7 @@ class BasePage(Page):
         self.driver.swipe(x1, y1, x1, y2)
 
     # 滑动的方向
+    def swipe_on(self, direction):
         if direction == 'up':
             self.swipe_up()
         elif direction == 'down':
