@@ -41,7 +41,7 @@ def run(m):
                      cases_path,
                      "--reruns", rerun])
         allure_report = "allure generate {xml} -o {html}".format(xml=xml_report, html=html_report)
-        logger(allure_report)
+        logger.info(allure_report)
         os.popen(allure_report)
         logger.info("运行结束，生成测试报告♥❤！")
     elif m == "debug":

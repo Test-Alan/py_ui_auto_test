@@ -1,8 +1,8 @@
-from poium import Page
-from .base_page import FindElement,  FindElements
+from pages.base_page import BasePage
+from pages.page_object import FindElement, FindElements
 
 
-class BaiduPage(Page):
+class BaiduPage(BasePage):
     search_input = FindElement(id_="kw", describe="搜索框")
     search_button = FindElement(id_="su", describe="搜索按钮")
     settings = FindElement(link_text="设置", describe="设置下拉框")
