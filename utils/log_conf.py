@@ -1,17 +1,15 @@
-
 import os
 import time
 import logging
 import logging.handlers
 BASE_DIR = os.path.dirname(os.path.dirname(__file__))
-data_dir = BASE_DIR + '/data/'
 
 
 # 日志管理
 def init_logger(file_name):
     now_time = time.strftime("%Y_%m_%d_%H_%M_%S")   # 当前时间
     log_file_name = now_time + file_name            # 使用当前时间当做log日志的文件名
-    log_file = os.path.join(data_dir, "log/", log_file_name)
+    log_file = os.path.join(BASE_DIR, "logs/", log_file_name)
     dir_path = os.path.dirname(log_file)
     try:
         if not os.path.exists(dir_path):
