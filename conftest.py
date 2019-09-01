@@ -1,9 +1,6 @@
 import os
 import time
-
 import pytest
-
-
 from selenium import webdriver
 from selenium.webdriver import Remote
 from selenium.webdriver.chrome.options import Options as CH_Options
@@ -26,6 +23,16 @@ rerun = "3"
 # 运行测试用例的目录或文件
 cases_path = "./tests/"
 
+# appium Capabilities
+caps = {
+    "platformName": "android",
+    "deviceName": "mumu",
+    "appPackage": "com.xueqiu.android",
+    "appActivity": ".view.WelcomeActivityAlias",
+    "autoGrantPermissions": True,
+    "noReset": True,
+
+}
 
 ############################
 
@@ -94,6 +101,15 @@ def browser():
     else:
         raise NameError("driver驱动类型定义错误！")
 
+    return driver
+
+
+# 启动app
+@pytest.fixture(scope='session', autouse=True)
+def app():
+    global driver
+    global caps
+    driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
     return driver
 
 
