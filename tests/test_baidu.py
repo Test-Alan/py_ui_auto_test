@@ -11,7 +11,7 @@ sys.path.insert(0, dirname(dirname(abspath(__file__))))
 class TestSearch:
     """百度搜索"""
 
-    def test_baidu_search_case(self, browser, base_url):
+    def test_baidu_search_case(self, driver, base_url):
         """
         名称：百度搜索"pytest"
         步骤：
@@ -21,12 +21,12 @@ class TestSearch:
         检查点：
         * 检查页面标题是否包含关键字。
         """
-        page = BaiduPage(browser)
+        page = BaiduPage(driver)
         page.get(base_url)
         page.search_input = "pytest"
         # page.search_button.click()
         # sleep(2)
-        # assert browser.title == "pytest_百度搜索"
+        # assert driver.title == "pytest_百度搜索"
 
     @pytest.mark.parametrize(
         "name, search_key",
@@ -36,19 +36,19 @@ class TestSearch:
          ],
          ids=["case1", "case2", "case3"]
         )
-    def test_baidu_search(self, name, search_key, browser, base_url):
-        page = BaiduPage(browser)
+    def test_baidu_search(self, name, search_key, driver, base_url):
+        page = BaiduPage(driver)
         page.get(base_url)
         page.search_input = search_key
         page.search_button.click()
         sleep(2)
-        assert browser.title == search_key+"_百度搜索"
+        assert driver.title == search_key+"_百度搜索"
 
 
 class TestSearchSettings:
     """百度搜索设置"""
 
-    def test_baidu_search_setting(self, browser, base_url):
+    def test_baidu_search_setting(self, driver, base_url):
         """
         名称：百度搜索设置
         步骤：
@@ -60,7 +60,7 @@ class TestSearchSettings:
         检查点：
         * 检查是否弹出提示框
         """
-        page = BaiduPage(browser)
+        page = BaiduPage(driver)
         page.get(base_url)
         page.settings.click()
         page.search_setting.click()

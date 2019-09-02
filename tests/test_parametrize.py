@@ -24,10 +24,10 @@ def get_data(file_path):
     "name, search_key",
     get_data(base_path + "/data/test_data/data_file.json")
     )
-def test_baidu_search(name, search_key, browser, base_url):
-    page = BaiduPage(browser)
+def test_baidu_search(name, search_key, driver, base_url):
+    page = BaiduPage(driver)
     page.get(base_url)
     page.search_input = search_key
     page.search_button.click()
     sleep(2)
-    assert browser.title == search_key+"_百度搜索"
+    assert driver.title == search_key+"_百度搜索"
