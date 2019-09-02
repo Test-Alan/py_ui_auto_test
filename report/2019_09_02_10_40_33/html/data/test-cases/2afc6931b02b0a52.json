@@ -1,0 +1,135 @@
+{
+  "uid" : "2afc6931b02b0a52",
+  "name" : "test_baidu_search_case",
+  "fullName" : "tests.test_baidu.TestSearch#test_baidu_search_case",
+  "historyId" : "2a80da298755687a0f8bfd2e82f04bdd",
+  "time" : {
+    "start" : 1567392036785,
+    "stop" : 1567392037571,
+    "duration" : 786
+  },
+  "description" : "\n        名称：百度搜索\"pytest\"\n        步骤：\n        1、打开浏览器\n        2、输入\"pytest\"关键字\n        3、点击搜索按钮\n        检查点：\n        * 检查页面标题是否包含关键字。\n        ",
+  "descriptionHtml" : "<pre><code>    名称：百度搜索&quot;pytest&quot;\n    步骤：\n    1、打开浏览器\n    2、输入&quot;pytest&quot;关键字\n    3、点击搜索按钮\n    检查点：\n    * 检查页面标题是否包含关键字。\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "browser_close",
+    "time" : {
+      "start" : 1567392036784,
+      "stop" : 1567392036784,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1567392036785,
+      "stop" : 1567392036785,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1567392033434,
+      "stop" : 1567392036784,
+      "duration" : 3350
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        名称：百度搜索\"pytest\"\n        步骤：\n        1、打开浏览器\n        2、输入\"pytest\"关键字\n        3、点击搜索按钮\n        检查点：\n        * 检查页面标题是否包含关键字。\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "8a61e6f5c9662ec4",
+      "name" : "log",
+      "source" : "8a61e6f5c9662ec4.txt",
+      "type" : "text/plain",
+      "size" : 69
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_close::0",
+    "time" : {
+      "start" : 1567392051889,
+      "stop" : 1567392056032,
+      "duration" : 4143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearch"
+  }, {
+    "name" : "host",
+    "value" : "lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_baidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2afc6931b02b0a52.json",
+  "parameterValues" : [ ]
+}

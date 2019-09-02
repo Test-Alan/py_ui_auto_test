@@ -1,0 +1,135 @@
+{
+  "uid" : "23f72b1ed6e07245",
+  "name" : "test_baidu_search_setting",
+  "fullName" : "tests.test_baidu.TestSearchSettings#test_baidu_search_setting",
+  "historyId" : "03750f676ed720ccc79d113c2546c599",
+  "time" : {
+    "start" : 1567392044710,
+    "stop" : 1567392047157,
+    "duration" : 2447
+  },
+  "description" : "\n        名称：百度搜索设置\n        步骤：\n        1、打开百度浏览器\n        2、点击设置链接\n        3、在下拉框中\"选择搜索\"\n        4、点击\"保存设置\"\n        5、对弹出警告框保存\n        检查点：\n        * 检查是否弹出提示框\n        ",
+  "descriptionHtml" : "<pre><code>    名称：百度搜索设置\n    步骤：\n    1、打开百度浏览器\n    2、点击设置链接\n    3、在下拉框中&quot;选择搜索&quot;\n    4、点击&quot;保存设置&quot;\n    5、对弹出警告框保存\n    检查点：\n    * 检查是否弹出提示框\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "base_url",
+    "time" : {
+      "start" : 1567392044710,
+      "stop" : 1567392044710,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser_close",
+    "time" : {
+      "start" : 1567392036784,
+      "stop" : 1567392036784,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "browser",
+    "time" : {
+      "start" : 1567392033434,
+      "stop" : 1567392036784,
+      "duration" : 3350
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "description" : "\n        名称：百度搜索设置\n        步骤：\n        1、打开百度浏览器\n        2、点击设置链接\n        3、在下拉框中\"选择搜索\"\n        4、点击\"保存设置\"\n        5、对弹出警告框保存\n        检查点：\n        * 检查是否弹出提示框\n        ",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "f8c9a5974f7c387b",
+      "name" : "log",
+      "source" : "f8c9a5974f7c387b.txt",
+      "type" : "text/plain",
+      "size" : 256
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "browser_close::0",
+    "time" : {
+      "start" : 1567392051889,
+      "stop" : 1567392056032,
+      "duration" : 4143
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "tests"
+  }, {
+    "name" : "suite",
+    "value" : "test_baidu"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSearchSettings"
+  }, {
+    "name" : "host",
+    "value" : "lenovo-PC"
+  }, {
+    "name" : "thread",
+    "value" : "8424-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.test_baidu"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23f72b1ed6e07245.json",
+  "parameterValues" : [ ]
+}

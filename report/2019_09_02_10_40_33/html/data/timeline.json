@@ -1,0 +1,104 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "lenovo-PC",
+    "children" : [ {
+      "name" : "8424-MainThread",
+      "children" : [ {
+        "name" : "test_baidu_search_case",
+        "uid" : "2afc6931b02b0a52",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392036785,
+          "stop" : 1567392037571,
+          "duration" : 786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "test_baidu_search[2-poium]",
+        "uid" : "85448eab82cb9467",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392049598,
+          "stop" : 1567392051889,
+          "duration" : 2291
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "2", "'poium'" ]
+      }, {
+        "name" : "test_baidu_search[case2]",
+        "uid" : "bf55c0328f2bb5c1",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392039917,
+          "stop" : 1567392042227,
+          "duration" : 2310
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'2'", "'pytest文档'" ]
+      }, {
+        "name" : "test_baidu_search[case3]",
+        "uid" : "6023c3ea6d1a9bdc",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392042239,
+          "stop" : 1567392044710,
+          "duration" : 2471
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'3'", "'pytest-html'" ]
+      }, {
+        "name" : "test_baidu_search[1-Selenium]",
+        "uid" : "a2f2463dec38c0c4",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392047163,
+          "stop" : 1567392049585,
+          "duration" : 2422
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "1", "'Selenium'" ]
+      }, {
+        "name" : "test_baidu_search[case1]",
+        "uid" : "e269e6f9620f548e",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392037575,
+          "stop" : 1567392039905,
+          "duration" : 2330
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "'1'", "'Selenium'" ]
+      }, {
+        "name" : "test_baidu_search_setting",
+        "uid" : "23f72b1ed6e07245",
+        "parentUid" : "685fbe6f369de3e14bb29516a003f734",
+        "status" : "passed",
+        "time" : {
+          "start" : 1567392044710,
+          "stop" : 1567392047157,
+          "duration" : 2447
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "685fbe6f369de3e14bb29516a003f734"
+    } ],
+    "uid" : "4390f85e985fc93a260b4fcc0ede2287"
+  } ]
+}

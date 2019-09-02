@@ -1,0 +1,2 @@
+INFO     logs:page_object.py:39 FindElement页面id:kw对象已访问
+INFO     logs:page_object.py:39 FindElement页面id:su对象已访问
