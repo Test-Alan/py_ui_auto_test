@@ -1,6 +1,4 @@
-
-from pages.base_page import BasePage
-from pages.page_object import FindElement, FindElements
+from pages.base_page import BasePage, FindElement, FindElements
 
 
 class CommonPage(BasePage):
