@@ -24,7 +24,7 @@ def init_env(now_time):
     """
     初始化测试报告目录
     """
-    os.mkdir(REPORT_DIR + now_time)
+    os.mkdir(os.path.join(REPORT_DIR, now_time))
 
 
 @click.command()
@@ -34,6 +34,7 @@ def run(m):
         logger.info("回归模式，开始执行✈✈！")
         now_time = time.strftime("%Y_%m_%d_%H_%M_%S")
         init_env(now_time)
+
         html_report = os.path.join(REPORT_DIR, now_time, "html")
         xml_report = os.path.join(REPORT_DIR, now_time, "xml")
         pytest.main(["-s", "-v",
