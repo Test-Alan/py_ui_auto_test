@@ -8,7 +8,8 @@ from selenium.webdriver.firefox.options import Options as FF_Options
 
 # 项目目录配置
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-REPORT_DIR = BASE_DIR + "/report/"
+REPORT_DIR = os.path.join(BASE_DIR, "report")
+
 
 ############################
 
@@ -68,7 +69,7 @@ def browser():
 
     if driver_type == "chrome":
         # 本地chrome浏览器
-        driver = webdriver.Chrome("/usr/local/Cellar/python/3.7.3/bin/chromedriver")
+        driver = webdriver.Chrome()
         driver.maximize_window()
 
     elif driver_type == "firefox":
@@ -104,13 +105,13 @@ def browser():
     return driver
 
 
-# 启动app
-@pytest.fixture(scope='session', autouse=True)
-def app():
-    global driver
-    global caps
-    driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
-    return driver
+# # 启动app
+# @pytest.fixture(scope='session', autouse=True)
+# def app():
+#     global driver
+#     global caps
+#     driver = webdriver.Remote("http://localhost:4723/wd/hub", caps)
+#     return driver
 
 
 # 关闭浏览器
