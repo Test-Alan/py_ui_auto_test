@@ -5,12 +5,9 @@ import pytest
 import click
 from conftest import REPORT_DIR
 from conftest import cases_path, rerun
+from utils.logger import logger
 
-# logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
-# logger = logging.getLogger(__name__)
-from utils.log_conf import init_logger
 
-logger = init_logger("log.txt")
 '''
 说明：
 1、用例创建原则，测试文件名必须以“test”开头，测试函数必须以“test”开头。

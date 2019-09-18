@@ -6,9 +6,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(__file__))
 
 
 # 日志管理
-def init_logger(file_name):
+def init_logger():
     now_time = time.strftime("%Y_%m_%d_%H_%M_%S")   # 当前时间
-    log_file_name = now_time + file_name            # 使用当前时间当做log日志的文件名
+    log_file_name = now_time + "log.txt"            # 使用当前时间当做log日志的文件名
     log_file = os.path.join(BASE_DIR, "logs/", log_file_name)
     dir_path = os.path.dirname(log_file)
     try:
@@ -25,3 +25,11 @@ def init_logger(file_name):
     logger_instance.addHandler(handler)
     logger_instance.setLevel(logging.DEBUG)
     return logger_instance
+
+
+def get_logger():
+    logger = init_logger()
+    return logger
+
+
+logger = get_logger()

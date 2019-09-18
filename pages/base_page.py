@@ -6,9 +6,7 @@ from allure_commons.types import AttachmentType
 from selenium.webdriver.remote.webelement import WebElement
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from utils.log_conf import init_logger
-
-logger = init_logger("log.txt")
+from utils.logger import logger
 
 
 class BasePage(Page):
@@ -94,9 +92,6 @@ class BasePage(Page):
     #     driver.get_screenshot_as_file(image_dir)
 
 
-
-
-
 class FindElement(PageElement):
     # 黑名单，用来处理一些不定时的弹框。
     black_list = []
@@ -108,6 +103,7 @@ class FindElement(PageElement):
             elem = WebDriverWait(context, self.time_out).until(EC.visibility_of_element_located(self.locator))
         except:
             if self.count > 2:
+                logger.info("已经超过最大查找次数!")
                 raise ("已经超过最大查找次数!")
             self.count += 1
             # 判断黑名单元素是否出现
@@ -116,11 +112,11 @@ class FindElement(PageElement):
                 if len(black_elements) >= 1:
                     black_elements[0].click()
                     logger.info("黑名单{}元素出现，已点击!".format(black))
-                    return self.get_element(context)
+
                 else:
                     logger.info("黑名单{}元素未出现!".format(black))
             else:
-                return None
+                return self.get_element(context)
 
         else:
             try:

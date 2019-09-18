@@ -1,11 +1,12 @@
 import os
 import time
 import pytest
-from selenium import webdriver as selen_driver
+from selenium import webdriver as SD
 from selenium.webdriver import Remote
 from selenium.webdriver.chrome.options import Options as CH_Options
 from selenium.webdriver.firefox.options import Options as FF_Options
-from appium import webdriver as app_driver
+from appium import webdriver as AD
+from pages.common_page import CommonPage
 
 # 项目目录配置
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -34,7 +35,7 @@ caps = {
     "appActivity": "com.changqingmall.smartshop.activity.SplashActivity",
     "autoGrantPermissions": True,
     "noReset": True,
-    # "app": os.path.join(BASE_DIR, "app_package/app-apptest-debug-2.0.0.apk")
+    "app": os.path.join(BASE_DIR, "app_package/app-apptest-debug-2.0.0.apk")
 
 }
 
@@ -71,12 +72,12 @@ def driver():
 
     if driver_type == "chrome":
         # 本地chrome浏览器
-        dr = selen_driver.Chrome()
+        dr = SD.Chrome()
         dr.maximize_window()
 
     elif driver_type == "firefox":
         # 本地firefox浏览器
-        dr = selen_driver.Firefox()
+        dr = SD.Firefox()
         dr.maximize_window()
 
     elif driver_type == "chrome-headless":
@@ -85,13 +86,13 @@ def driver():
         chrome_options.add_argument("--headless")
         chrome_options.add_argument('--disable-gpu')
         chrome_options.add_argument("--window-size=1920x1080")
-        dr = selen_driver.Chrome(options=chrome_options)
+        dr = SD.Chrome(options=chrome_options)
 
     elif driver_type == "firefox-headless":
         # firefox headless模式
         firefox_options = FF_Options()
         firefox_options.headless = True
-        dr = selen_driver.Firefox(firefox_options=firefox_options)
+        dr = SD.Firefox(firefox_options=firefox_options)
 
     elif driver_type == "grid":
         # 通过远程节点运行
@@ -102,8 +103,8 @@ def driver():
         dr.maximize_window()
     elif driver_type == "app":
         # appium
-        dr = app_driver.Remote("http://localhost:4723/wd/hub", caps)
-
+        dr = AD.Remote("http://localhost:4723/wd/hub", caps)
+        CommonPage(dr).skip_welcome_page()
     else:
         raise NameError("driver驱动类型定义错误！")
 
